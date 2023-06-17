@@ -22,7 +22,13 @@ import Register from "views/examples/Register.js";
 import Login from "views/examples/Login.js";
 import Tables from "views/examples/Tables.js";
 import Icons from "views/examples/Icons.js";
+<<<<<<< Updated upstream
 import User from "views/examples/User.js"
+=======
+import Blog from "views/examples/Blog";
+
+
+>>>>>>> Stashed changes
 var routes = [
   {
     path: "/index",
@@ -80,5 +86,12 @@ var routes = [
     component: <Register />,
     layout: "/auth",
   },
+  {
+    path: "/blog",
+    name: "Blog",
+    icon: "fa fa-brands fa-blogger-b text-blue",
+    component: <Blog />,
+    layout: "/auth",
+  }
 ];
 export default routes;
